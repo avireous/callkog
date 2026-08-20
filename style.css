@@ -15,7 +15,9 @@ h1 {
 
 .buttons {
     display: flex;
+    flex-direction: row !important;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     margin-top: 20px;
 }
@@ -27,6 +29,7 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    display: inline-block;
 }
 
 .card {

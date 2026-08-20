@@ -13,17 +13,20 @@ h1 {
     color: purple;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
 button {
     color: white;
     background-color: blue;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .card {

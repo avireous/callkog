@@ -1,0 +1,36 @@
+body {
+    background-color: pink;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+h1 {
+    color: purple;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+}
